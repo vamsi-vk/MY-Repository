@@ -1,0 +1,63 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+}
+
+body{
+	background: url('./vk1.jpg') no-repeat;
+	background-size: cover;
+	
+
+}
+.button{
+	background-color: white;
+	border-color:white;
+	color: black;
+	font-style: bold;
+	font-size: 15px;
+	cursor: pointer;
+	width: 110px;
+	height: 40px;
+	margin-left: 100px;
+	padding-right: 5px;
+	padding-left: 5px;
+	border-radius: 10px;
+	transition: background-color 1s;
+}
+.button:hover{
+background-color: gray;
+color: white;
+}
+.box{
+	background-color: gray;
+	border-radius: 10px;
+	
+}
+.hai {
+	width: 350px;
+	top: 50%;
+	left: 70%;
+	transform: translate(-50% ,-50%);
+	position: absolute;
+	color: #fff;
+}
+.hai h1{
+	font-size: 40px;
+	text-align:center;
+	text-transform: uppercase;
+	margin: 40px,0;
+	color: white;
+}
+.hai p{
+	font-size: 20px;
+	margin: 15px;
+}
+.hai input{
+	font-size: 16px;
+	width: 100%;
+	padding: 15px 10px;
+	border: 0;
+	outline: none;
+	border-radius: 10px;
+}
